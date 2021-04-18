@@ -1,0 +1,330 @@
+/*Fonts for the body*/
+
+body {
+    font-family: 'Source Serif Pro', serif;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Adamina', serif;
+    font-size: 100%;
+}
+
+/*Root*/
+
+.root {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+/*App*/
+
+/*Container background color*/
+
+/*.App{
+    background-color: #0FC9F2;
+}*/
+
+/*PageTop*/
+
+.nav {
+    height: 40px;
+    background-color: magenta;
+}
+
+.nav p {
+    font-size: 13px;
+    margin-top: 3px;
+}
+
+/*navbar*/
+
+.navbar navbar-expand-lg navbar-light bg-light sticky-top {
+    background-color: #F2F2F2;
+}
+
+/* getting the manu during hovering*/
+
+dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    /*To Avoid Stcky Drop Down Menu*/
+    pointer-events: none;
+}
+
+.navbar-nav li:hover .dropdown-menu {
+    display: block;
+}
+
+/*Removes the arrow from the drop down menu*/
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+/*navbar end*/
+
+/*carousel captions styling*/
+
+.carousel-item {
+    height: 400px;
+    position: relative;
+    top: 0px;
+}
+
+/*.carousel-item{
+    height: 400px;
+    height:100vh;
+    min-height:300px;
+    background:no-repeat center center scroll;
+    background-size:cover;
+
+}*/
+
+.carousel-caption p {
+    padding-bottom: 150px;
+    font-size: 24px;
+}
+
+.carousel-caption h5 {
+    padding-bottom: 150px;
+    font-size: 50px;
+}
+
+.carousel-item img {
+    width: 1900px;
+    height: 700px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel-item img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.carousel-item {
+    /*height: 700px;
+    width: 1900px;*/
+    width: 100%;
+    height: auto;
+}
+
+.servicehead {
+    text-align: center;
+    padding: 10px;
+}
+
+.service-wrapper {
+    background-color: #0FC9F2;
+}
+
+.Land-consultation-services {
+    margin-bottom: 100px;
+}
+
+.service{
+    background-color:#F2F2F2;
+}
+/*service icons*/
+
+.agri-icon {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 60px;
+    color: #0FC9F2;
+}
+
+.business-icon {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 60px;
+    color: #0FC9F2;
+}
+
+.Land-icon {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 60px;
+    color: #0FC9F2;
+}
+
+/*about us*/
+
+.summaryhead {
+    text-align: center;
+    padding: 10px;
+    background-color: #F2F2F2;
+}
+
+/*cards*/
+
+.card-img-top {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.teamhead {
+    text-align: center;
+    padding: 10px;
+}
+
+.team-wrapper {
+    background-color: #0FC9F2;
+}
+
+.card-deck {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 50px;
+}
+
+.card-body{
+    background-color: #F2F2F2;
+}
+
+/*bottom-footer*/
+
+/*jumbotron*/
+
+ul.footer-wrapper-content {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 80px;
+    text-align:center;
+}
+
+.footer-wrapper {
+    color: #F2F2F2;
+    background-color: #272C8C;
+    padding-bottom: 5px;
+    padding-top: 60px;
+}
+
+.bottom-footer-wrapper {
+    background-color: #120F59;
+    color: #F2F2F2;
+    padding-top: 14px;
+}
+
+.contacts a {
+    color: #F2F2F2;
+}
+
+.social a{
+    color: #F2F2F2;
+    padding-right: 10px;
+}
+
+.social i{
+    /*color: #F2F2F2;*/
+    padding-right: 10px;
+}
+
+.site-copy {
+    text-align: center;
+}
+
+.site-by {
+    text-align: center;
+}
+
+/*Social Media*/
+
+.social-wrapper p {
+    text-align: center;
+}
+
+.social-wrapper a i {
+    margin-right: 10px;
+}
+
+.company-name-wrapper {
+    text-align: center;
+}
+
+.physical-address-wrapper {
+    text-align: center;
+}
+
+.contacts-wrapper {
+    text-align: center;
+}
+
+/* Style all font awesome icons 
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+  }*/
+
+/* Add a hover effect if you want */
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+    color: red;
+}
+
+/* Homecontact */
+
+/*Form*/
+
+/* Style inputs with type="text", select elements and textareas */
+
+input[type=text], select, textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+form {
+    left: 0px;
+    right: 0px;
+}
