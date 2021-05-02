@@ -29,6 +29,7 @@ body {
     background-color: #0FC9F2;
 }*/
 
+/*Index page*/
 /*PageTop*/
 
 .nav {
@@ -356,3 +357,31 @@ form {
     left: 0px;
     right: 0px;
 }
+
+/*About page*/
+.about-content h4{
+margin-top: 50px;
+margin-bottom: 15px;
+}
+
+/*services main page*/
+.static-banner-content{
+    margin-top: 100px;
+    padding-bottom: 0px;
+}
+
+.static-banner .container{
+    background-color: white;
+}
+
+
+.static-banner-content img{
+    object-fit:none;
+    width: 100%;
+    height: 260px;
+}
+
+.static-banner-content h4{
+    margin-top: 20px;
+}
+
