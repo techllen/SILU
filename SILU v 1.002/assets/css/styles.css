@@ -304,9 +304,63 @@ ul.footer-content {
     color: red;
 }
 
-/* Homecontact */
+/*About page*/
+.about-content h4{
+margin-top: 50px;
+margin-bottom: 15px;
+}
 
-/*Form*/
+/*services main page*/
+.static-banner-content{
+    margin-top: 100px;
+    padding-bottom: 0px;
+}
+
+.static-banner .container{
+    background-color: white;
+}
+
+
+.static-banner-content img{
+    object-fit:none;
+    width: 100%;
+    height: 260px;
+}
+
+.static-banner-content h4{
+    margin-top: 20px;
+}
+
+/*Our team page*/
+.teamprofile{
+    margin-top: 100px;
+}
+
+.director-image-1 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.director-image-2 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.manager-image-1 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.manager-image-2 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* Contact*/
 
 /* Style inputs with type="text", select elements and textareas */
 
@@ -358,30 +412,6 @@ form {
     right: 0px;
 }
 
-/*About page*/
-.about-content h4{
-margin-top: 50px;
-margin-bottom: 15px;
+.contact-information{
+    margin-top: 130px;
 }
-
-/*services main page*/
-.static-banner-content{
-    margin-top: 100px;
-    padding-bottom: 0px;
-}
-
-.static-banner .container{
-    background-color: white;
-}
-
-
-.static-banner-content img{
-    object-fit:none;
-    width: 100%;
-    height: 260px;
-}
-
-.static-banner-content h4{
-    margin-top: 20px;
-}
-
