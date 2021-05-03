@@ -118,16 +118,26 @@
             <div class="cont-form">
               <h3>Connect with us</h3>
               <div class="container-fluid">
-                <form action="#" method="POST" name="form">
+                <form action="/scripts/email-handling.php" method="POST" name="form">
 
-                  <label for="fname"></label>
-                  <input type="text" id="fname" name="Full Name" placeholder="Your full name..">
+                  <label for="Name">Full Name</label>
+                  <input type="text" id="Name" name="Name" placeholder="Your full name.." required>
 
-                  <label for="email"></label>
-                  <input type="text" id="email" name="Email Address" placeholder="Your email address..">
+                  <label for="Email">Your Email Address</label>
+                  <input type="text" id="Email" name="Email" placeholder="Your email address.." required>
 
-                  <label for="message"></label>
-                  <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+                  <label for="contact reason">Contact Reason</label>
+                  <select id="contact reason" name="contact reason">
+                    <option value="Agriculture Consultancy">Agriculture Consultancy</option>
+                    <option value="Business Consultancy">Business Consultancy</option>
+                    <option value="Land Consultancy">Land Consultancy</option>
+                    <option value="Other">Other</option>
+
+                  </select>
+
+                  <label for="message">Your Message</label>
+                  <textarea id="message" name="Message" placeholder="Message.." style="height:200px"
+                    required></textarea>
 
                   <input type="submit" name="submit" value="Submit">
 
