@@ -21,6 +21,8 @@ body {
 
 .app{
     padding-bottom: 378px;
+   /* display: flex;
+    flex-direction: column;*/
 }
 
 /*Container background color*/
@@ -414,4 +416,10 @@ form {
 
 .contact-information{
     margin-top: 130px;
+}
+
+.contact-us-banner-content img{
+    object-fit:none;
+    width: 100%;
+    height: 260px;
 }
