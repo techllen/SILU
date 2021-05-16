@@ -198,10 +198,17 @@ dropdown:hover>.dropdown-menu {
 }
 
 /*bottom-footer*/
+.card-body {
+    background-color: #F2F2F2;
+}
+
+/*bottom-footer*/
 
 /*jumbotron*/
 
-ul.footer-content {
+/*jumbotron*/
+
+ul.footer-content-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -217,7 +224,6 @@ ul.footer-content {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 378px;
 }
 
 .content {
@@ -230,6 +236,14 @@ ul.footer-content {
     padding-top: 14px;
     border-top: 0.1px solid #F2F2F2;
     margin-bottom: 0px;
+}
+
+.social-a a{
+    float: right;
+}
+
+.social-c a{
+    float: left;
 }
 
 .contacts a {
@@ -255,19 +269,6 @@ ul.footer-content {
 }
 
 /*Social Media*/
-
-.social ul {
-    display: flex;
-}
-
-.social li {
-    flex:auto;
-    list-style-type: none;
-}
-
-.social li a{
-    text-align: center;
-}
 
 .social {
     margin-bottom: 20px;
@@ -339,7 +340,7 @@ ul.footer-content {
     padding-bottom: 0px;
 }
 
-.static-banner .container {
+.static-banner {
     background-color: white;
 }
 
@@ -424,11 +425,6 @@ input[type=submit]:hover {
 
 /* Add a background color and some padding around the form */
 
-.container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    contact-information padding: 20px;
-}
 
 form {
     left: 0px;
