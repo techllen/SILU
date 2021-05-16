@@ -84,25 +84,72 @@
       </div>
       <!-- Navbar ends-->
       <!-- Contact us banner begin-->
-      <div class="contact-us-banner" col-sm-12>
+      <div class="contact-us-banner" col-md-12>
         <div class="contact-us-banner-content">
           <img src="assets/image/Contact us.jpg" alt="contact us banner image">
 
         </div>
       </div>
       <!-- Contact us banner end-->
-
+      <!-- intro begin-->
+      <div class=col-md-12"></div>
+      <div class="contact-us-intro">
+        <ul>
+          <li>
+            <h2>Let's talk about your project</h2>
+          </li>
+          <li>
+            <h6>Use the form below to drop us an e-mail or a phone calls work too</h6>
+          </li>
+        </ul>
+      </div>
+      <!-- intro end-->
       <!-- contact information -->
       <div class="contact-information">
         <div class="row">
-          <div class="col-sm-4">
-            <p>Phone:</p>
-            <p>Email:</p>
-            <p>Location: Iringa Mjini</p>
-            <p>Address:</p>
+          <!-- contact form begin-->
+          <div class="col-md-2">
           </div>
-          <div class="col-sm-8">
-            <h6>Location</h6>
+          <div class="container-fluid col-md-4">
+            <form action="/scripts/email-handling.php" method="POST" name="form">
+
+              <label for="Name">Full Name</label>
+              <input type="text" id="Name" name="Name" placeholder="Your full name.." required>
+
+              <label for="Email">Your Email Address</label>
+              <input type="text" id="Email" name="Email" placeholder="Your email address.." required>
+
+              <label for="contact reason">Contact Reason</label>
+              <select id="contact reason" name="contact reason">
+                <option value="Agriculture Consultancy">Agriculture Consultancy</option>
+                <option value="Business Consultancy">Business Consultancy</option>
+                <option value="Land Consultancy">Land Consultancy</option>
+                <option value="Other">Other</option>
+              </select>
+              <label for="message">Your Message</label>
+              <textarea id="message" name="Message" placeholder="Message.." style="height:200px" required></textarea>
+              <input type="submit" name="submit" value="Submit"><br><br>
+            </form>
+          </div>
+          <!-- contact form end-->
+          <div class="contacts col-md-4">
+            <ul>
+              <li><i class="bi bi-telephone-inbound-fill"></i> Mobile: <a href="tel:+255 764 026 951">+255 764 026
+                  951</a> <br> Tel: <a href="tel:+255 654718913">+255 654718913</a></li>
+              <li><i class="bi bi-envelope-fill"></i>Email:<a href="mailto:Silucoltd@gmail.com">Silucoltd@gmail.com</a>
+              </li>
+              <li><i class="bi bi-compass-fill"></i>Location: Iringa Office Gangilonga , Opposite common wealth graves
+                (Referral hospital road)</li>
+              <!--<li><i class="bi bi-mailbox2"></i>Address:Iringa,Tanzania</li>-->
+            </ul>
+          </div>
+          <div class="col-md-2">
+          </div>
+        </div>
+        <!-- contact information -->
+
+        <div class="row">
+          <div class="map col-md-12">
             <div id="googleMap" style="width:100%;height:200px;"></div>
             <script>
               function myMap() {
@@ -118,60 +165,30 @@
               src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHM_gb1mSbS6L4EYP8_wFApSvZlGXRINo&callback=myMap"></script>
           </div>
         </div>
-        <!-- contact information -->
-
-        <!-- contact form begin-->
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="cont-form">
-              <h3>Connect with us</h3>
-              <div class="container-fluid">
-                <form action="/scripts/email-handling.php" method="POST" name="form">
-
-                  <label for="Name">Full Name</label>
-                  <input type="text" id="Name" name="Name" placeholder="Your full name.." required>
-
-                  <label for="Email">Your Email Address</label>
-                  <input type="text" id="Email" name="Email" placeholder="Your email address.." required>
-
-                  <label for="contact reason">Contact Reason</label>
-                  <select id="contact reason" name="contact reason">
-                    <option value="Agriculture Consultancy">Agriculture Consultancy</option>
-                    <option value="Business Consultancy">Business Consultancy</option>
-                    <option value="Land Consultancy">Land Consultancy</option>
-                    <option value="Other">Other</option>
-
-                  </select>
-
-                  <label for="message">Your Message</label>
-                  <textarea id="message" name="Message" placeholder="Message.." style="height:200px"
-                    required></textarea>
-
-                  <input type="submit" name="submit" value="Submit"><br><br>
-
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
-      <!-- contact form end-->
+
 
       <!-- footer begin-->
       <div class="footer-wrapper">
         <div class="content">
           <ul class="footer-content">
             <li class="social">
-              <p>
-                <a href="https://www.instagram.com/invites/contact/?i=o3azx4evrc5v&utm_content=fvqtnkb"><i
-                    class="fa fa-instagram fa-2x" aria-hidden="true"></i>SILU Company General and
-                  Business</a>
-                <a href="https://www.instagram.com/invites/contact/?i=1go6ki7isnv7j&utm_content=hg9qrq0"><i
-                    class="fa fa-instagram fa-2x" aria-hidden="true"></i>SILU Land Consultancy</a>
-                <a href="https://www.instagram.com/invites/contact/?i=1kf02cxpbrmea&utm_content=kkkitwv"><i
-                    class="fa fa-instagram fa-2x" aria-hidden="true"></i>SILU Agriculture
-                  Consultancy</a>
-              </p>
+              <ul>
+                <li>
+                  <a class="social-a" href="https://www.instagram.com/invites/contact/?i=o3azx4evrc5v&utm_content=fvqtnkb"><i
+                      class="fa fa-instagram fa-2x" aria-hidden="true"></i>SILU Company General and
+                    Business</a>
+                </li>
+                <li>
+                  <a class="social-b" href="https://www.instagram.com/invites/contact/?i=1go6ki7isnv7j&utm_content=hg9qrq0"><i
+                      class="fa fa-instagram fa-2x" aria-hidden="true"></i>SILU Land Consultancy</a>
+                </li>
+                <li>
+                  <a class="social-c" href="https://www.instagram.com/invites/contact/?i=1kf02cxpbrmea&utm_content=kkkitwv"><i
+                      class="fa fa-instagram fa-2x" aria-hidden="true"></i>SILU Agriculture
+                    Consultancy</a>
+                </li>
+              </ul>
             </li>
             <li class="company-name">
               <p>SILU Company Limited</p>
@@ -201,8 +218,9 @@
           </div>
         </div>
       </div>
-      <!-- footer end-->
     </div>
+    <!-- footer end-->
+  </div>
   </div>
 
 
