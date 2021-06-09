@@ -463,3 +463,12 @@ form {
     margin-bottom: 40px;
     list-style-type: none;
 }
+
+/* Responsive Rules */
+@media screen  and (max-width: 800px){
+    .social-a .social-b .social-c{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
