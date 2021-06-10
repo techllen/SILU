@@ -76,11 +76,7 @@ dropdown:hover>.dropdown-menu {
 
 /*carousel captions styling*/
 
-.carousel-item {
-    height: 400px;
-    position: relative;
-    top: 0px;
-}
+
 
 /*.carousel-item{
     height: 400px;
@@ -102,24 +98,9 @@ dropdown:hover>.dropdown-menu {
 }
 
 .carousel-item img {
-    width: 1900px;
-    height: 700px;
-    object-fit: cover;
-}
-
-@media only screen and (max-width: 600px) {
-    .carousel-item img {
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-    }
-}
-
-.carousel-item {
-    /*height: 700px;
-    width: 1900px;*/
     width: 100%;
-    height: auto;
+    height: fit-content;
+    object-fit: cover;
 }
 
 .servicehead {
@@ -417,6 +398,40 @@ ul.footer-content-list {
     border-radius: 5px;
 }
 
+.team-member .team-member-content {
+    position: relative;
+    width: 90%;
+    padding: 20px;
+    margin: -60px auto 0 auto;
+    background: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    border-radius: 5px;
+}
+
+.team-member:hover .team-member-content {
+    transform: rotateY(180deg);
+}
+
+.team-member .team-member-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background: #ffffff;
+    border-radius: 5px;
+    transform: rotateY(180deg);
+}
+
 /* Contact*/
 
 /* Style inputs with type="text", select elements and textareas */
@@ -517,5 +532,26 @@ form {
     .map {
         z-index: 100;
         margin-bottom: 90px;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .carousel-caption p {
+        padding-bottom: 20px;
+        font-size: 15px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .team{
+        margin-bottom: 150px;
     }
 }
