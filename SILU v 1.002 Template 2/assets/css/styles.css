@@ -86,6 +86,10 @@ dropdown:hover>.dropdown-menu {
     background-size:cover;
 
 }*/
+.carousel-content{
+    display:grid;
+    place-items:center;
+}
 
 .carousel-caption p {
     padding-bottom: 200px;
@@ -397,7 +401,7 @@ ul.footer-content-list {
 .team-member .team-member-content {
     position: relative;
     width: 90%;
-    padding: 20px;
+    padding: 5px;
     margin: -60px auto 0 auto;
     background: #ffffff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
