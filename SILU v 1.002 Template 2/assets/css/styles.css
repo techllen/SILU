@@ -88,14 +88,10 @@ dropdown:hover>.dropdown-menu {
 }*/
 
 .carousel-caption p {
-    padding-bottom: 150px;
+    padding-bottom: 200px;
     font-size: 24px;
 }
 
-.carousel-caption h5 {
-    padding-bottom: 150px;
-    font-size: 50px;
-}
 
 .carousel-item img {
     width: 100%;
@@ -550,8 +546,21 @@ form {
     }
 }
 
+@media screen and (max-width: 500px) {
+
+    .carousel-caption {
+        margin-bottom:-50px;
+    }   
+}
+
 @media screen and (max-width: 850px) {
     .team{
         margin-bottom: 150px;
+    }
+}
+
+@media screen and (max-width:1500px){
+    body{
+        font-size:75%;
     }
 }
