@@ -7,7 +7,7 @@ body {
     font-family: 'Cairo', sans-serif;
     font-family: 'EB Garamond', serif;
     font-family: 'Adamina', serif;
-    font-size: 90%;
+    font-size: 15px;
 }
 
 /*Root*/
@@ -91,6 +91,7 @@ dropdown:hover>.dropdown-menu {
     place-items:center;
 }
 
+
 .carousel-caption p {
     padding-bottom: 200px;
     font-size: 24px;
@@ -112,6 +113,9 @@ dropdown:hover>.dropdown-menu {
     background-color: #0FC9F2;
 }
 
+.service-link{
+    color: #0FC9F2;
+}
 .Land-consultation-services {
     margin-bottom: 100px;
 }
@@ -122,33 +126,48 @@ dropdown:hover>.dropdown-menu {
 
 /*service icons*/
 
-.agri-icon {
+/*.agri-icon {
     margin-top: 20px;
     text-align: center;
     font-size: 60px;
+    color: #0FC9F2;
+}*/
+
+.agri-icon {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
     color: #0FC9F2;
 }
 
 .business-icon {
     margin-top: 20px;
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
     color: #0FC9F2;
 }
 
 .Land-icon {
     margin-top: 20px;
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
     color: #0FC9F2;
 }
 
 /*about us*/
-
-.summaryhead {
-    text-align: center;
-    padding: 10px;
+.summary{
     background-color: #F2F2F2;
+    padding-bottom: 90px;
+}
+
+.summary-head {
+    text-align: center;
+    padding-top: 90px;
+    margin-bottom: 50px;
+}
+
+.summary-content {
+    text-align: left;
 }
 
 /*cards*/
@@ -365,6 +384,13 @@ ul.footer-content-list {
     height: 100%;
 }
 /*Our Team Page*/
+.team{
+    padding-bottom: 50px;
+}
+.team-head {
+    padding-top: 50px;
+    padding-bottom:50px;
+}
 .team h2{
     text-align: center;
 }
@@ -565,6 +591,12 @@ form {
 
 @media screen and (max-width:1500px){
     body{
-        font-size:75%;
+        font-size:85%;
+    }
+}
+
+@media screen and (max-width:767px){
+    .card-title,.card-text{
+        text-align: center;
     }
 }
