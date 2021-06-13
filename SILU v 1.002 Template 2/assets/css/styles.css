@@ -134,21 +134,21 @@ dropdown:hover>.dropdown-menu {
 }*/
 
 .agri-icon {
-    margin-top: 20px;
+    margin-top: 50px;
     text-align: center;
     font-size: 40px;
     color: #0FC9F2;
 }
 
 .business-icon {
-    margin-top: 20px;
+    margin-top: 50px;
     text-align: center;
     font-size: 40px;
     color: #0FC9F2;
 }
 
 .Land-icon {
-    margin-top: 20px;
+    margin-top: 50px;
     text-align: center;
     font-size: 40px;
     color: #0FC9F2;
@@ -595,6 +595,17 @@ form {
     .carousel-caption h1 {
         font-size: 20px;
     }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .team-member-content h6 {
+        font-size: 95%;
+    }  
+    
+    .team-member-content p {
+        font-size: 90%;
+    } 
 }
 
 @media screen and (max-width: 500px) {
