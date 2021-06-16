@@ -91,12 +91,24 @@ dropdown:hover>.dropdown-menu {
     place-items:center;
 }
 
-
-.carousel-caption p {
-    padding-bottom: 200px;
-    font-size: 24px;
+.carousel-caption{
+    position: absolute;
+    top: 50%;
 }
 
+.carousel-caption p{
+    font-size: 1.3vw;
+    /*Alpha value has been used set to 70*/
+    display: inline-block;
+    background-color:#120F5970;
+}
+
+.carousel-caption h1{
+    font-size: 2.2vw;
+    /*Alpha value has been used set to 70*/
+    display: inline-block;
+    background-color:#0FC9F270;
+}
 
 .carousel-item img {
     width: 100%;
@@ -313,6 +325,15 @@ ul.footer-content-list {
 }
 
 /*About page*/
+.VMimage{
+    height:600px
+}
+
+.VMimage img{
+    width: 50%;
+    height: auto;
+    bott
+}
 
 .about {
     margin-bottom: 0px;
@@ -378,7 +399,14 @@ ul.footer-content-list {
 }
 
 .teamprofile {
-    margin-top: 100px;
+    margin-top: 10px;
+    background-color: #0FC9F2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.teamprofile .team-cards .director-profile-1,.director-profile-2,.manager-profile-1,.manager-profile-2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .director-image-1 img {
@@ -404,6 +432,11 @@ ul.footer-content-list {
     width: 100%;
     height: 100%;
 }
+
+/*.teamprofile img:hover {
+        transform: scale(1.5);
+      }*/
+
 /*Our Team Page*/
 .team{
     padding-bottom: 50px;
@@ -583,17 +616,18 @@ form {
 
     .carousel-item img {
         width: 100%;
-        height: auto;
+        height: 300px;
         object-fit: cover;
     }
 
-    .carousel-caption p {
-        padding-bottom: 20px;
-        font-size: 15px;
+    .carousel-caption p{
+        font-size:12px;
+        /*Alpha value has been used set to 70*/
     }
-
-    .carousel-caption h1 {
+    
+    .carousel-caption h1{
         font-size: 20px;
+        
     }
 }
 
@@ -608,12 +642,7 @@ form {
     } 
 }
 
-@media screen and (max-width: 500px) {
 
-    .carousel-caption {
-        margin-bottom:-50px;
-    }   
-}
 
 @media screen and (max-width: 850px) {
     .team{
