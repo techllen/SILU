@@ -597,6 +597,7 @@ form {
     }
 }
 
+/* For mobile phones: */
 @media screen and (max-width: 768px) {
     .map {
         z-index: 100;
@@ -646,8 +647,10 @@ form {
     }
 }
 
-@media screen and (min-max-width:1400px) {
+@media screen and (max-width:1400px) {
     .director-image-1 img, .director-image-2 img, .manager-image-1 img, .manager-image-2 img {
-        position: static;
-    }
+        object-fit:cover;
+        width: 100%;
+        height: 100%;
+sd    }
 }
