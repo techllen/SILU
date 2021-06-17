@@ -76,8 +76,6 @@ dropdown:hover>.dropdown-menu {
 
 /*carousel captions styling*/
 
-
-
 /*.carousel-item{
     height: 400px;
     height:100vh;
@@ -86,28 +84,29 @@ dropdown:hover>.dropdown-menu {
     background-size:cover;
 
 }*/
-.carousel-content{
-    display:grid;
-    place-items:center;
+
+.carousel-content {
+    display: grid;
+    place-items: center;
 }
 
-.carousel-caption{
+.carousel-caption {
     position: absolute;
     top: 50%;
 }
 
-.carousel-caption p{
+.carousel-caption p {
     font-size: 1.3vw;
     /*Alpha value has been used set to 70*/
     display: inline-block;
-    background-color:#120F5970;
+    background-color: #120F5970;
 }
 
-.carousel-caption h1{
+.carousel-caption h1 {
     font-size: 2.2vw;
     /*Alpha value has been used set to 70*/
     display: inline-block;
-    background-color:#0FC9F270;
+    background-color: #0FC9F270;
 }
 
 .carousel-item img {
@@ -125,9 +124,10 @@ dropdown:hover>.dropdown-menu {
     background-color: #0FC9F2;
 }
 
-.service-link{
+.service-link {
     color: #0FC9F2;
 }
+
 .Land-consultation-services {
     margin-bottom: 100px;
 }
@@ -167,7 +167,8 @@ dropdown:hover>.dropdown-menu {
 }
 
 /*about us*/
-.summary{
+
+.summary {
     background-color: #F2F2F2;
     padding-bottom: 50px;
 }
@@ -182,25 +183,25 @@ dropdown:hover>.dropdown-menu {
     text-align: left;
 }
 
-.image-content{
+.image-content {
     overflow: hidden;
     width: 300px;
     height: 280px;
 }
 
-.aboutus-images{
+.aboutus-images {
     display: flex;
 }
 
-.aboutus-images img{
-  width:100%;
-  height:auto;
-  display:block;
-  object-fit: cover;
-  object-position:center center;
-  transform:skew(10deg);
-  margin:0 -10%;
-  overflow:hidden;
+.aboutus-images img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    object-position: center center;
+    transform: skew(10deg);
+    margin: 0 -10%;
+    overflow: hidden;
 }
 
 /*cards*/
@@ -325,11 +326,12 @@ ul.footer-content-list {
 }
 
 /*About page*/
-.VMimage{
-    height:600px
+
+.VMimage {
+    height: 600px
 }
 
-.VMimage img{
+.VMimage img {
     width: 50%;
     height: auto;
     bott
@@ -394,8 +396,10 @@ ul.footer-content-list {
 }
 
 /*Our team page*/
-.team-intro{
+
+.team-intro {
     margin-top: 100px;
+    text-align: center;
 }
 
 .teamprofile {
@@ -405,49 +409,36 @@ ul.footer-content-list {
     padding-bottom: 50px;
 }
 
-.teamprofile .team-cards .director-profile-1,.director-profile-2,.manager-profile-1,.manager-profile-2{
+.teamprofile .team-cards .director-profile-1, .director-profile-2, .manager-profile-1, .manager-profile-2 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.director-image-1 img {
+.director-image-1 img, .director-image-2 img, .manager-image-1 img, .manager-image-2 img {
     object-fit: cover;
     width: 100%;
     height: 100%;
-}
-
-.director-image-2 img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-}
-
-.manager-image-1 img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-}
-
-.manager-image-2 img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+    position: absolute;
 }
 
 /*.teamprofile img:hover {
         transform: scale(1.5);
       }*/
 
-/*Our Team Page*/
-.team{
+/*Our Team Section*/
+
+.team {
     padding-bottom: 50px;
 }
+
 .team-head {
     padding-top: 50px;
-    padding-bottom:50px;
+    padding-bottom: 50px;
 }
-.team h2{
+
+.team h2 {
     text-align: center;
 }
+
 .team-member {
     text-align: center;
     margin-bottom: 30px;
@@ -457,7 +448,6 @@ ul.footer-content-list {
 .team-member .team-member-img {
     border-radius: 5px;
     overflow: hidden;
-    
 }
 
 .team-member-img img {
@@ -465,7 +455,6 @@ ul.footer-content-list {
     width: 100%;
     height: auto;
     border-radius: 5px;
-    
 }
 
 .team-member .team-member-content {
@@ -613,51 +602,52 @@ form {
         z-index: 100;
         margin-bottom: 90px;
     }
-
     .carousel-item img {
         width: 100%;
         height: 300px;
         object-fit: cover;
     }
-
-    .carousel-caption p{
-        font-size:12px;
+    .carousel-caption p {
+        font-size: 12px;
         /*Alpha value has been used set to 70*/
     }
-    
-    .carousel-caption h1{
+    .carousel-caption h1 {
         font-size: 20px;
-        
+    }
+    .teamprofile {
+        margin-bottom: 90px;
     }
 }
 
 @media screen and (max-width: 1000px) {
-
     .team-member-content h6 {
         font-size: 95%;
-    }  
-    
+    }
     .team-member-content p {
         font-size: 90%;
-    } 
+    }
 }
 
-
-
 @media screen and (max-width: 850px) {
-    .team{
+    .team {
         margin-bottom: 150px;
     }
 }
 
-@media screen and (max-width:1500px){
-    body{
-        font-size:85%;
+@media screen and (max-width:1500px) {
+    body {
+        font-size: 85%;
     }
 }
 
-@media screen and (max-width:767px){
-    .card-title,.card-text{
+@media screen and (max-width:767px) {
+    .card-title h5 h6, .card-text p {
         text-align: center;
+    }
+}
+
+@media screen and (min-max-width:1400px) {
+    .director-image-1 img, .director-image-2 img, .manager-image-1 img, .manager-image-2 img {
+        position: static;
     }
 }
