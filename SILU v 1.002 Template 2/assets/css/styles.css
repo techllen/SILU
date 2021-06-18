@@ -620,6 +620,41 @@ form {
     .teamprofile {
         margin-bottom: 90px;
     }
+
+
+    #VMcarousel .carousel-caption {
+        position: absolute;
+        top:20vw;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        height: 250px;
+    }
+
+    #VMcarousel .carousel-caption p {
+        font-size: 1.1vw;
+    }
+    
+    #VMcarousel .carousel-caption h1 {
+        font-size: 2.6vw;
+    }
+
+    #VMcarousel .carousel-item{
+        height: 400px;
+    }
+
+    .VMimage {
+        height: 600px
+    }
+    
+    .VMimage img {
+        width: 90%;
+        height: auto;
+        padding-top: 80px;
+    }
+
+    .about-content{
+        margin-top: 0px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
