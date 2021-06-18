@@ -420,6 +420,7 @@ ul.footer-content-list {
     position: absolute;
 }
 
+
 /*.teamprofile img:hover {
         transform: scale(1.5);
       }*/
@@ -598,6 +599,7 @@ form {
 }
 
 /* For mobile phones: */
+
 @media screen and (max-width: 768px) {
     .map {
         z-index: 100;
@@ -647,10 +649,23 @@ form {
     }
 }
 
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1400px){
+    .team-card-content {
+        display: flex;
+        flex-direction: column;
+    }
     .director-image-1 img, .director-image-2 img, .manager-image-1 img, .manager-image-2 img {
-        object-fit:cover;
+        object-fit: cover;
+        width: 200px;
+        position: relative;
+    }
+}
+
+@media screen and (max-width:315px){
+    .director-image-1 img, .director-image-2 img, .manager-image-1 img, .manager-image-2 img {
+        object-fit: cover;
         width: 100%;
         height: 100%;
-sd    }
+        position: relative;
+    }
 }
