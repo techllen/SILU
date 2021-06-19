@@ -639,7 +639,7 @@ form {
     }
 
     #VMcarousel .carousel-item{
-        height: 400px;
+        height: 450px;
     }
 
     .VMimage {
@@ -654,7 +654,26 @@ form {
 
     .about-content{
         margin-top: 0px;
+        padding-bottom: 160px;
     }
+
+@media screen and (max-width: 960px) {
+    #VMcarousel .carousel-item{
+        height: 320px;
+     }
+}
+
+}
+@media screen and (max-width: 500px) {
+    #VMcarousel .carousel-item{
+        height: 300px;
+     }
+}
+
+@media screen and (max-width: 350px) {
+    #VMcarousel .carousel-item{
+        height: 200px;
+     }
 }
 
 @media screen and (max-width: 1000px) {
